@@ -15,9 +15,9 @@ export const PROGRAMS = [
   {
     name: "Barista Basic",
     level: "Beginner",
-    blurb: "Start here. Learn the bar, the machine, and the fundamentals of a good espresso drink.",
-    topics: ["Coffee origins and roast levels", "Grinder and espresso machine basics", "Dialing in a shot", "Milk steaming and texturing", "Core drinks: americano, latte, cappuccino", "Bar hygiene and workflow"],
-    duration: "TBA", fee: "TBA",
+    blurb: "Start here. Hands on experience with the bar, the machine, and the fundamentals of a good espresso drink.",
+    topics: ["Coffee History", "Coffee origins and roast levels", "Grinder and espresso machine basics", "Dialing in a shot", "Milk steaming and texturing", "Core drinks: americano, latte, cappuccino", "Bar hygiene and workflow"],
+    duration: "4-5 Hours", fee: "₱2,250", regularFee: "₱4,500",
   },
   {
     name: "Barista Intermediate",

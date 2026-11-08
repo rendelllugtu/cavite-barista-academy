@@ -36,6 +36,10 @@ a{color:inherit}
 .level{display:inline-block;padding:.1rem .7rem;border-radius:999px;background:var(--latte);font-size:.85rem;font-weight:600}
 .topics{margin:0;padding-left:1.1rem;columns:2;column-gap:2rem;font-size:.95rem}.topics li{break-inside:avoid}
 dl{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1rem;margin:0}dt{opacity:.65}dd{margin:0;font-weight:600}
+.fee-promo{display:flex;align-items:center;flex-wrap:wrap;gap:.4rem}
+.fee-regular{text-decoration:line-through;opacity:.5;font-weight:400;font-size:.9rem}
+.fee-price{color:var(--cherry);font-size:1.1rem;font-weight:800}
+.fee-badge{background:var(--cherry);color:#fff;font-size:.7rem;font-weight:700;padding:.1rem .45rem;border-radius:999px;letter-spacing:.05em}
 .band{background:var(--latte)}
 .steps{max-width:36rem;padding-left:1.3rem;margin:0 0 2rem;font-size:1.1rem}
 .steps li{padding:.3rem 0}

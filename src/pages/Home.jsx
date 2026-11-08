@@ -17,7 +17,19 @@ export default function Home() {
               <p>{p.blurb}</p>
               <ul className="topics">{p.topics.map((t) => <li key={t}>{t}</li>)}</ul>
             </div>
-            <dl><dt>Duration</dt><dd>{p.duration}</dd><dt>Fee</dt><dd>{p.fee}</dd></dl>
+            <dl>
+                <dt>Duration</dt><dd>{p.duration}</dd>
+                <dt>Fee</dt>
+                <dd>
+                  {p.regularFee
+                    ? <span className="fee-promo">
+                        <span className="fee-regular">{p.regularFee}</span>
+                        <span className="fee-price">{p.fee}</span>
+                        <span className="fee-badge">PROMO</span>
+                      </span>
+                    : p.fee}
+                </dd>
+              </dl>
           </article>
         ))}
       </section>

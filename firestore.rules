@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public can look up ONE certificate by its number. No listing, no writes.
+    match /certificates/{certNo} {
+      allow get: if true;
+      allow list, write: if false;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}
